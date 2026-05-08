@@ -6,8 +6,8 @@ pipeline {
     }
 
     environment {
-        AWS_ACCESS_KEY_ID     = credentials('terraform-aws-tcs-jenkins')
-        AWS_SECRET_ACCESS_KEY = credentials('terraform-aws-tcs-jenkins')
+        AWS_ACCESS_KEY_ID     = credentials('terrafrom-aws-tcs-Jenkins')
+        AWS_SECRET_ACCESS_KEY = credentials('terrafrom-aws-tcs-Jenkins')
     }
 
     parameters {
