@@ -3,10 +3,6 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
-variable "ami_id" {
-  type = string
-}
-
 variable "instance_count" {
   type = number
 }
